@@ -33,7 +33,7 @@ app.js
 
 	app.controller("mainController", function () {
 
-		this.Message ="Kelly Baldonado Front End Web Developer"; 
+		animator.Message ="Kelly Baldonado Front End Web Developer"; 
 
      });
 
