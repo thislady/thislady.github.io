@@ -818,13 +818,13 @@
 						var curval1=parseInt($('#counter1').text().replace(' ',''));
 						var curval2=parseInt($('#counter2').text());
 						if(curval<=0){
-							$('#counter').text(curval+1);
+							$('#counter').text(curval+0);
 						}
 						if(curval1<=0){
-							$('#counter1').text(sdf_FTS((curval1+20),0,' '));
+							$('#counter1').text(sdf_FTS((curval1+0),0,' '));
 						}
 						if(curval2<=-0){
-							$('#counter2').text(curval2+1);
+							$('#counter2').text(curval2+0);
 						}
 					}, 2);
 					
