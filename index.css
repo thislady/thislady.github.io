@@ -29,11 +29,11 @@ body {
 app.js
 
 (function(){
-	var app = angular.module("main", []);
+	var app = angular.module("main",[]);
 
 	app.controller("mainController", function () {
 
-		animator.Message ="Kelly Baldonado Front End Web Developer"; 
+		this.Message = "Kelly Baldonado Front End Web Developer"; 
 
      });
 
