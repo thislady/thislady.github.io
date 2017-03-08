@@ -817,13 +817,13 @@
 						var curval=parseInt($('#counter').text());
 						var curval1=parseInt($('#counter1').text().replace(' ',''));
 						var curval2=parseInt($('#counter2').text());
-						if(curval<=0){
+						if(curval<=6){
 							$('#counter').text(curval+2);
 						}
-						if(curval1<=0){
+						if(curval1<=2){
 							$('#counter1').text(sdf_FTS((curval1+2),0,' '));
 						}
-						if(curval2<=8){
+						if(curval2<=0){
 							$('#counter2').text(curval2+1);
 						}
 					}, 2);
